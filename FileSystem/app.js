@@ -27,7 +27,7 @@ function prompt() {
         fileSystem.pwd();
         break;
       case 'help':
-        fileSystem.showHelp();
+        fileSystem.help();
         break;
       case 'exit':
         readLine.close();
